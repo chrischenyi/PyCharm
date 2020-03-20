@@ -50,3 +50,28 @@ f = theano.function([a,b], c)
 result = f(1.5, 2.5) 
 print(result)
 ```
+
+### Install Keras 
+```sh
+ pip install keras
+ python -c "import keras; print(keras.__version__)"
+ pip install --upgrade keras
+ 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
