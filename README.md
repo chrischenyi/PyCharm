@@ -56,12 +56,22 @@ print(result)
  pip install keras
  python -c "import keras; print(keras.__version__)"
  pip install --upgrade keras
- 
+```
+### import keras 
+``` sh
+C:\Users\Administrator>python
+>>> import keras
 ```
 
+### Change the backend property from tensorflow (default) to theano
+``` sh
+python -c "from keras import backend; print(backend.backend())
+```
 
-
-
+# specify backedn to use by Keras 
+``` sh
+KERAS_BACKEND=theano python -c "from keras import backend; print(backend.backend())
+```
 
 
 
