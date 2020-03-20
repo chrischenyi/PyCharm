@@ -20,7 +20,8 @@ myVar**=3 -> 6^3 = 216 -> assign power 3 to a
 'a' NOT in 'b'
 ```
 
-### Python identity operator### Install Theano
+
+### Install Theano
 
 ```sh
 $ pip install Theano
