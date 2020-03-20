@@ -18,7 +18,7 @@ myVar**=3 -> 6^3 = 216 -> assign power 3 to a
 ```
 'a' in 'b' -> check if 'b' contains 'a' -> return True/False value
 'a' NOT in 'b'
-
+```
 
 ### Python identity operator### Install Theano
 
