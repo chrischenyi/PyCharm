@@ -68,10 +68,20 @@ C:\Users\Administrator>python
 python -c "from keras import backend; print(backend.backend())
 ```
 
-# specify backedn to use by Keras 
+### specify backend to use by Keras 
 ``` sh
 KERAS_BACKEND=theano python -c "from keras import backend; print(backend.backend())
 ```
+
+# How to create a Model
+1. Load data
+2. Define Model
+3. Compile Model
+4. Fit Model
+5. Evaludate Model
+6. Tie It All Together
+7. Prediction
+
 
 
 
